@@ -1,43 +1,29 @@
-.counter{
-  width: 350px;
-  height: 350px;
-  background-color: rgb(173, 129, 173);
-  align-items: center;
-  text-align: center;
-  border-radius: 10px;
+.container{
+    width: 300px;
+    height: 402px;
+    background-color: teal;
+    text-align: center;
+    margin: 100px;
+    padding: 10px;
+    border: 1px solid red;
 }
-h1{
-  color:rgb(53, 37, 8);
-  font-size: 9rem;
+input{
+    margin: 12px;
+    padding: 12px;
+    
 }
-.decrementBtn{
-  width: 50%;
-  margin: 0 auto;
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
-  border-radius:10px ;
-  background: rgb(255, 0, 106);
-  padding: 0.5rem 0.7rem;
-  text-align: center;
-  color: white;
+button{
+    background-color: orange;
+    padding: 8px;
+    margin: 18px;
+    font-weight: bolder;
 }
-
-.decrementBtn:hover{
-  background-color: rgb(16, 194, 16);
+button:hover{
+    background-color: indianred;
 }
-
-.incrementBtn{
-  width: 30%;
-  margin: 0 auto;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  border-radius:10px ;
-  background: orange;
-  padding: 0.5rem 0.7rem;
-  text-align: center;
-  color: white;
+.sbat{
+    text-align: center;
 }
-
-.incrementBtn:hover{
-  background-color:rgb(4, 0, 255) ;
+.btn{
+    text-align: center;
 }

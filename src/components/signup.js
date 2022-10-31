@@ -1,4 +1,6 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+
 
 function Signup() {
     return (
@@ -13,7 +15,7 @@ function Signup() {
                 <input type="password" placeholder="at least 8 characters" />
                 <hr></hr>
                 <input type='checkbox' /> I agree with Terms and Privacy
-                <button> Login</button>
+                <button><Link to="/Login">Login</Link></button>
             </form>
         </div>
     )

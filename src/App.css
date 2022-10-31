@@ -1,14 +1,13 @@
 .container{
-    width: 300px;
-    height: 402px;
-    background-color: teal;
-    text-align: center;
-    margin: 100px;
-    padding: 10px;
-    border: 1px solid red;
+    margin: auto;
+   width: 20%;
+   padding: 10px;
+   background-color: lightblue;
+   text-align: center;
+
 }
 input{
-    margin: 12px;
+    margin: 20px;
     padding: 12px;
     
 }
